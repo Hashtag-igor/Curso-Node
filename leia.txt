@@ -1,0 +1,26 @@
+//site https://http.cat/ = tem os números dos erros de requisição (ex: 404 not found), lá você pode tirar duvida sobre qual erro apareceu;
+
+//npm install express --save = para instalar o pacote do express (express facilita alguns processos nas aplicações node)
+
+//npm install mysql2 --save = para instalar a extenção do msl
+
+//cls = limpa a tela do prompt;
+
+//cd +pasta = vai para a pasta selecionada;
+
+//Para executar algo do arquivo js, mas no prompt de comandos, já esteja na pasta do arquivo que você deseja executar..
+então digite "node +nome do arquivo (ex: node index.js)". Se no seu arquivo index.js do VSCode estiver por exemplo..
+um "console.log("Hello World")", ao executar o "node index.js" no prompt de comandos, o conteúdo aparecerá lá no prompt.
+
+//Após executar o servidor pelo prompt de comandos, provavelmente a aba de digitar não vai te deixar digitar, por mais que..
+fique brilhando. Então, digite Ctrl+c que voltará ao normal e você poderá digitar novamente;
+
+//Após atualizar um servidor, as informações no browser não atualizarão automaticamente, você precisará rodar novamente..
+o servidor. Ou seja, node +nome da pasta;
+
+//Para criar um servidor node.js:
+http.createServer((request, response) =>{                   //Não precisa ser esses nomes(request, response), mas eles representam bem
+    response.writeHead(200, {"Content-Type":"text/plain"}); //Vai chamar o response e escrever no cabeçalho esse conteúdo dentro de {}
+    response.write("Testando 1,2,3,4../n");                 //Conteúdo que ele vai ver;
+    response.end();                                         //Finalizou a resposta;
+}).listen(1337)                                             //Esse servidor que foi criado, vai ser escutado na porta 1337;

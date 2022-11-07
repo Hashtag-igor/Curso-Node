@@ -1,0 +1,6 @@
+//npm install mysql2 --save = instalar a extensão do mysql para utiliza-lo;
+
+//Antes de iniciar a conexão do vscode com o mysql, ligue o xampp e inice o mysql por lá;
+Em seguida, abra o mysql app normalmente (se não fizer isso, vai dar erro de password do mysql);
+
+//Lembrando também que a senha de password do mysql dessa aula é: 123456789;

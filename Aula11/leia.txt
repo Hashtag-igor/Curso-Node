@@ -1,0 +1,4 @@
+//UPLOAD DE ARQUIVOS EM NODE COM MÓDULO FORMIDABLE;
+
+//Baixar o pacote formidable:
+npm install formidable
