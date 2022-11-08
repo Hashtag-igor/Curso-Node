@@ -1,0 +1,5 @@
+//Removendo objetos da coleção com deleteOne e DeleteMany (usando mongoDB com NODE);
+
+//npm install mongodb = para baixar o modulo do mongodb no vscode
+
+//98582241 = senha do meu database do mongodb
