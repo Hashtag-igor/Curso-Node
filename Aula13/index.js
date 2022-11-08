@@ -6,7 +6,6 @@ const url = "mongodb+srv://igor:98582241@cluster0.5ep8u4h.mongodb.net/?retryWrit
 mongodb.connect(url, (erro, banco) =>{
     if(erro) throw erro; 
     const dbo = banco.db("cfbCursos"); 
-    const obj = {curso: "Curso de JavaScript", canal: "CFB Cursos"} 
     const colecao = "cursos";
 
     //findOne = retorna o primeiro registro da busca, só o primeiro;
