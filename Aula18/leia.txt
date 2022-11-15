@@ -1,0 +1,5 @@
+//Limitando o numero de objetos retornados;
+
+//npm install mongodb = para baixar o modulo do mongodb no vscode
+
+//******** = senha do meu database do mongodb
